@@ -1,0 +1,47 @@
+Passo a passo:
+[x] 1. Mapear os dados
+[x] 1.1 Definir os dados disponíveis no problema, como animais e recintos.
+[x] 1.2 Representar os animais com suas propriedades (especie, tamanho, lista de biomas, se é carnívoro).
+[x] 1.3 Representar os recintos com suas propriedades (número, lista de biomas, tamanho, listar animais já presentes).
+[x] 2. Definir as ferramentas que serão utilizadas
+[x] 2.1 Escolher as estruturas de dados (objetos e arrays para armazenar animais e recintos).
+[x] 2.2 Utilizar loops como for, for..in, forEach, ou map para percorrer os dados.
+[x] 2.3 Operadores lógicos (&&, ||, !) para criar as regras de decisão.
+[x] 2.4 Métodos como .filter(), .sort(), .find() para filtrar e ordenar os recintos.
+[x] 2.5 Funções auxiliares para modularizar a lógica.
+[x] 3. Escolher o paradigma de programação
+[x] 3.1 Optar por um paradigma orientado a objetos para encapsular a lógica dos recintos e animais.
+[x] 3.2 Criar uma classe RecintosZoo que contém os métodos responsáveis pela lógica de análise.
+[x] 3.3 Instanciar a classe para interagir com os dados e processar as entradas.
+[x] 4. Estruturar as regras dos animais;
+[x] 4.1 Criar funções que implementem cada regra específica dos animais;
+[x] 5. Implementar lógica de filtragem;
+[x] 6. Ordenar os recintos viáveis depois da filtragem;
+[x] 7. Retornar o resultado.
+
+Funções auxiliares:
+[x] Espaço livre;
+[x] Espaço ocupado;
+[x] Espaço disponível;
+[x] Verificar se os dados de entrada são válidos, evitando assim cálculos desnecessários;
+[x] Tratar os casos de erro: espécie não válida, quantidade inválida e quantidade não viável;
+
+Regras dos animais:
+[x] Ajustar espaço caso coabitação; (espaço + 1);
+[x] Considerar os carnívoros, que só podem ficar com a mesma espécie;
+[x] Considerar os macacos, que não gostam de ficar sozinhos - verificar se já há outros animais ou se será necessário adicionar um novo companheiro;
+[x] Considerar os hipopótamos, que só aceitam outra espécie estando num recinto com savana e rio (recinto n3);
+[x] Verificar se os animais existentes no recinto permanecem confortáveis - regra macacos, regra hipos, regra carnivoros...;
+
+Lógica de filtragem:
+[x] Filtrar os recintos com os biomas compatíveis com a espécie de animal fornecido;
+[x] Verificar se há espaço disponível nesses recintos filtrados, descontando o espaço ocupado pelos animais existentes nos recintos;
+
+Ordenar resultados:
+[x] Ordenar os recintos viáveis; (.sort)
+[x] Retornar no formato solicitado. 
+
+Preocupações/Prestar atenção:
+* Consistência do tipo de dados;
+* Clareza na nomenclatura;
+* Paradigma de Orientação a Objetos - classes, objetos, métodos, instâncias, encapsulamento (getters e setters), polimorfismo, notação de ponto, notação de colchetes, spread operator, high order functions, construtores, atributos estáticos;
